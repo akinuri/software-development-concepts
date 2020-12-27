@@ -1,0 +1,17 @@
+What makes a framework?
+
+Well, I think, the first thing you come across when you try a framework is the folder structure. The folder structure also gives you hints about the parts of the framework.
+
+
+
+Should an app/project be framework dependent?
+
+AFAIK, one depends on a framework. I've tried CodeIgniter 3, and will try Laravel 8 soon. I doubt that they are modular, that is one can use a part of it in his/her own custom app/project freely.
+
+I also don't think there's any standard about app/project folder structure. If there's not any standard, how can one make a framework modular?
+
+I'll have to dissect couple frameworks and/or projects, and see if there are any patterns to their structures. And hopefully, come up with a standard (at lease a loose one).
+
+
+
+...

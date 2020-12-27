@@ -1,0 +1,23 @@
+project/
+    application/
+        cache/
+        config/
+        controllers/
+        core/
+        helpers/
+        hooks/
+        language/
+        libraries/
+        logs/
+        models/
+        third_party/
+        views/
+    system/
+        core/
+        database/
+        fonts/
+        helpers/
+        language/
+        libraries/
+    user_guide/
+    index.php
