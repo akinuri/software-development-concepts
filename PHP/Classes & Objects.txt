@@ -1,0 +1,140 @@
+https://www.php.net/manual/en/language.oop5.php
+https://www.php.net/manual/en/ref.classobj.php
+
+Basics
+    https://www.php.net/manual/en/language.oop5.basic.php
+    keywords: class, new, $this, extends, parent::, ::class, self::
+    parentheses may be omitted if there are 0 arguments
+
+Properties
+    https://www.php.net/manual/en/language.oop5.properties.php
+    keywords: $this, ->
+
+Class Constants
+    https://www.php.net/manual/en/language.oop5.constants.php
+    keywords: self::, ::class, get_called_class()
+    class constants are allocated once per class, and not for each class instance
+
+Autoloading Classes
+    https://www.php.net/manual/en/language.oop5.autoload.php
+    keywords: spl_autoload_register(), include
+    
+Constructors and Destructors
+    https://www.php.net/manual/en/language.oop5.decon.php
+    keywords: __construct(), __destruct()
+
+Visibility
+    https://www.php.net/manual/en/language.oop5.visibility.php
+    keywords: public, protected, private
+    private properties are not inherited
+    protected and public properties are inherited
+
+Object Inheritance
+    https://www.php.net/manual/en/language.oop5.inheritance.php
+    keywords: extends
+
+Scope Resolution Operator (::)
+    https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php
+    keywords: self, parent, static
+    allows access to static, constant, and overridden properties or methods of a class
+    self, parent and static are used to access properties or methods from inside the class definition
+
+Static Keyword
+    https://www.php.net/manual/en/language.oop5.static.php
+    keywords: 
+    $this is not available inside a method declared as static
+    self = parent
+    static = child
+    static properties (if declared again in the child) are duplicated in child classes, and belong to class, not to instances
+    
+Class Abstraction
+    https://www.php.net/manual/en/language.oop5.abstract.php
+    keywords: abstract
+    an abstract classes cannot be instantiated
+    an abstract method must have an abstract class
+    all methods marked abstract in the parent's class declaration must be defined by the child
+        with the same (or a less restricted) visibility
+        signatures of the methods must match (i.e. type hints and the number of required arguments)
+
+Object Interfaces
+    keywords: interface, implements
+    specifies methods that a class must implement (what, not how)
+    classes may implement more than one interface by separating each interface with a comma
+    interfaces can be extended like classes using the extends operator
+
+Traits
+    https://www.php.net/manual/en/language.oop5.traits.php
+    keywords: trait, use, insteadof, as
+    can't be instantiated
+    An inherited member from a base class is overridden by a member inserted by a Trait.
+    The precedence order is that members from the current class override Trait methods, which in turn override inherited methods.
+    Multiple Traits can be inserted into a class by listing them in the use statement, separated by commas.
+    
+Overloading
+    https://www.php.net/manual/en/language.oop5.overloading.php
+    keywords: 
+    
+Object Iteration
+    https://www.php.net/manual/en/language.oop5.iterations.php
+    keywords: 
+
+Magic Methods
+    https://www.php.net/manual/en/language.oop5.magic.php
+    __construct()
+    __destruct()
+    __call()
+    __callStatic()
+    __get()
+    __set()
+    __isset()
+    __unset()
+    __sleep()
+    __wakeup()
+    __toString()
+    __invoke()
+    __set_state()
+    __clone()
+    __debugInfo()
+
+Final Keyword
+    https://www.php.net/manual/en/language.oop5.final.php
+    keywords: final
+    class cannot be extended
+    method cannot be overridden
+    
+Object Cloning
+    https://www.php.net/manual/en/language.oop5.cloning.php
+    keywords: clone, __clone()
+    shallow copy
+    newly created object's __clone() method will be called (if defined)
+    
+Comparing Objects
+    https://www.php.net/manual/en/language.oop5.object-comparison.php
+    Two object instances are equal
+        if they have the same attributes and values (values are compared with ==)
+            and are instances of the same class
+    When using the identity operator (===)
+        object variables are identical
+            if and only if they refer to the same instance of the same class
+
+Type Hinting
+    https://www.php.net/manual/en/language.oop5.typehinting.php
+    https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration
+    keywords: string, integer, etc.
+    
+Late Static Bindings
+    https://www.php.net/manual/en/language.oop5.late-static-bindings.php
+    keywords: __CLASS__, self::, static::
+    
+Objects and references 
+    https://www.php.net/manual/en/language.oop5.references.php
+    keywords: &, ->
+
+Object Serialization
+    https://www.php.net/manual/en/language.oop5.serialization.php
+    keywords: serialize(), unserialize()
+
+Covariance and Contravariance
+    https://www.php.net/manual/en/language.oop5.variance.php
+    keywords: 
+    

@@ -1,0 +1,14 @@
+https://www.php.net/manual/en/errorfunc.constants.php
+https://www.php.net/manual/en/errorfunc.configuration.php
+
+php.ini
+    
+    display_errors = On
+    error_reporting = E_ALL
+    
+file.php
+    
+    ini_set("display_errors", 1);
+    ini_set("display_startup_errors", 1);
+    error_reporting(E_ALL);
+    
