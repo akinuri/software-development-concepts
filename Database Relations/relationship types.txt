@@ -1,0 +1,109 @@
+one-to-one
+    
+    [country]----[capital city]
+    
+    A country can have only one capital city, and a capital city can have only one country.
+    
+    * Single Table
+        
+        Both entities can be stored in a single table; there'll never (shouldn't) be a duplicate country/capital.
+        
+        table
+        id, country, capital_city, ...
+    
+    * Two Tables
+        
+        Multiple/two tables can be used; the reference can reside in either table.
+        
+        countries
+        id, name, population [, capital_city_id]
+        
+        capital_cities
+        id, name, population [, country_id]
+    
+    * Three Tables
+        
+        Are you mad?
+
+
+
+one-to-many
+    
+    [book]---<[pages]
+    
+    A book can have many pages, but a page can only be in one book.
+    
+    * Single Table
+        
+        If the both entities were to be stored in a single table,
+        the first/left (one) would need to be duplicated for each second/right (many).
+        This is not practical.
+      
+        table
+        id, book_id, book_name, page_no, page_content
+         1,     123,     name1,       1, ...
+         2,     123,     name1,       2, ...
+         3,     123,     name1,       3, ...
+         4,     456,     name2,       1, ...
+    
+    * Two Tables
+        
+        Multiple tables can be used; the reference can reside only in the second/right (many) table.
+        
+        books
+        id, name
+        
+        pages
+        id, no, content, book_id
+    
+    * Three Tables
+    
+        A third option is to use an associative entity/table, but this would be wasteful. (see many-to-many)
+        
+        books
+        id, name
+        
+        pages
+        id, no, content
+        
+        book_pages
+        book_id, page_id
+
+
+many-to-many
+    
+    [books]>--<[authors]
+    
+    A book can have many authors, and an author can have many books.
+    
+    * Single Table
+        
+        Say, what?! You are really a mad person.
+        (This would require one to duplicate an author for each book, and duplicate a book for each author.)
+        
+    * Two Tables
+        
+        Again, not practical. See one-to-many (single table).
+    
+    * Three Tables
+        
+        An associative entity/table (authors_books) is required to form this relationship.
+        
+        books
+        id, name, page_count
+        
+        authors
+        id, name, dob
+        
+        authors_books
+        author_id, book_id
+
+
+
+Summary:
+
+Relationship    Ideal           Alternative
+--------------------------------------------------
+one-to-one      Single Table    Two Tables
+one-to-many     Two Tables
+many-to-many    Three Tables
