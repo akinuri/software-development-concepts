@@ -1,4 +1,4 @@
-# Software Development Concepts <sub><sup>(2020-12-16)</sup></sub>
+# Software Development Concepts <sub><sup>(2020-12-11)</sup></sub>
 
 I'm a self-taught programmer. That means I'm both the student and the teacher. While being the student (relatively) easy, the teacher has more responsibility. You need to get to know the student and modify the ways of your teaching.
 
@@ -10,4 +10,4 @@ This is my attempt at fixing the fragmented information. I'll be storing everyth
 
 ## Update <sub><sup>(2021-01-14)</sup></sub>
 
-It's been almost a month since I started this repo, and it's getting bigger by the day. I had many links to resources in my hard drive and in browser bookmarks. I've started collecting them all in one place. So this (repo) might get bigger than I expected. It's not strictly related to software development anymore. I mean, it has (or will) become more encompassing. Therefore, it might require a rename later. ... Computer Science?
+It's been a month since I started this repo, and it's getting bigger by the day. I had many links to resources in my hard drive and in browser bookmarks. I've started collecting them all in one place. So this (repo) might get bigger than I expected. It's not strictly related to software development anymore. I mean, it has (or will) become more encompassing. Therefore, it might require a rename later. ... Computer Science?
