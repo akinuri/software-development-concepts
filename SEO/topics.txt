@@ -1,0 +1,43 @@
+SEO
+    Search engine optimization
+    
+    web search engine
+        google.com
+        bing.com
+        yahoo.com
+        yandex.com
+    
+    backlinks
+    keywords
+    sitemap
+    
+    white hat vs. black hat
+        creating content for users, not for search engines, and then making that content easily accessible to the online "spider" algorithms, rather than attempting to trick the algorithm from its intended purpose
+        hidden text
+        unrelated keywords
+        misleading description
+        cloaking
+    
+    content
+        <title></title>
+        <meta name="description" content="">
+        <h1><h2>...
+        <img src="meaning-name.jpg" alt="content description">
+            image sitemap
+        structured data
+        urls
+            https?
+            (www)?
+            meaningful
+        navigation (site structure/hierarchy)
+        breadcrumb lists
+        navigation page for users & sitemap for SEs
+        useful 404 pages
+        link text
+        
+    mobile-friendly
+    
+    SEO vs SEM
+        unpaid (natural, organic) vs paid (ads)
+    
+    
