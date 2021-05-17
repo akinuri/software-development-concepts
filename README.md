@@ -6,7 +6,7 @@ As a student, I'm constantly bombarded with new information. Reading/knowing a t
 
 You might be thinking that maybe I'm exaggerating the situation, but no, I'm not. I want to understand something enough to teach it to someone else. That's what "truly understand" means to me. In other words, _"If you can't explain it to a six-year-old, you don't understand it yourself."_
 
-This is my attempt at fixing the fragmented information. I'll be storing everything that I come across here. Group them, associate them, graph them, etc. And, spoiler, one of the goals of mine is to write a book. So these will come in handy, later.
+This is my attempt at fixing the fragmented information. I'll be storing everything that I come across here. Group them, associate them, graph them, etc. And, spoiler, one of my goals is to write a book. So these will come in handy, later.
 
 ## Update <sub><sup>(2021-01-14)</sup></sub>
 
