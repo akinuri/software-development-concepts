@@ -1,0 +1,8 @@
+money/currency          decimal(19,4)   999_999_999_999_999.9999
+exchange rate           decimal(15,9)               999_999.999_999_999
+percent (normal?)       decimal(5,2)                    100.00
+percent (paranoid?)     decimal(12,9)                   100.000000000
+percent and/or money    decimal(18,9)   999_999_999.999_999_999
+
+
+Note: I suppose it's safe to add extra 2 digits to the scale for preventing rounding errors.
