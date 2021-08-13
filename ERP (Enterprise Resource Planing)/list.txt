@@ -1,3 +1,18 @@
+departments
+    production/manufacturing
+    research & development
+    purchasing
+    marketing/advertising
+    human resources
+    sales
+    accounting/finance
+    it
+    customer service
+    operations
+    legal
+
+--------------------------------------------------
+
 Enterprise Resource Planning
     
     Supplier Relationship Management (SRM)
@@ -19,6 +34,15 @@ Enterprise Resource Planning
     
     Customer Relationship Management (CRM)
         audience analysis
+        compile data
+        how to best cater for customers' needs
+        retain customers
+        grow sales
+        communication
+        direct contact with customers
+            sales & services
+            forecasting
+            analysis of consumer patterns and behaviors
     
     Supply Chain Management (SCM)
         goods & services
