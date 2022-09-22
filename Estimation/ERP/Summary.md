@@ -227,3 +227,69 @@ Software Code Estimation
         required documentation
 ```
 
+
+<br>
+
+Effort estimation methods for ERP projects based on function points a case study-6733.pdf
+
+```
+applied these function point based ERP effort estimation methods for specific four modules of the project
+    (but says 3 [MM, SD and PM] in the paper?)
+
+traditional effort estimation methods are not appropriate for industrial projects such as ERP projects
+
+SAP Implementation Project
+    started in April 2015
+    completed in March 2016.
+    go-live of the project occurred on 01.01.2016
+    last 3 months of the project was for operational support and maintenance
+
+This project consisted implementation of mainly following SAP modules:
+    • MM (Material Management)
+    • SD (Sales & Distribution)
+    • PM (Plant Maintenance)
+    • FICO (Finance & Controlling)
+    • HR (Human Resource)
+    • PP-PI (Production Planning – Process Industries)
+
+Total number of employee for the company is almost 1200
+at the beginning of the project total number of SAP users was predicted as 110
+
+The project staff consisted of
+    from SAP Consultancy Company
+        1 Project Manager
+        7 Senior SAP Consultant
+        5 Junior SAP Consultant
+    from SAP Adopter Company
+        1 Project Manager
+        3 Process Analyst
+        7 SAP Key-User 
+
+Business Blueprint Documents
+    Organizational Units
+    Master Data
+    Business Processes
+
+1. The COSMIC EPC Method
+    Total Effort : 3001 (Person-Hours)
+    total size of the project for MM, SD and PM modules
+        calculated as 886 Cfs (COSMIC functional size) points
+    total effort for MM, SD and PM modules
+        implementation for this project is calculated based on COSMIC EPC is 532 Hours
+        Realized value for these modules was 378,5 hours
+        considering these values Mean Relative Error (MRE) is calculated as 0,40
+
+2. COSMIC-FFP
+    total size of the project for MM, SD and PM modules
+        COSMIC-FFP: Size = 247 Cfsu
+        Refined Approximate COSMIC-FFP: Size = 384 Cfsu
+    Realized effort for these modules
+        2,15 man-months (considering 8 hours’ working day)
+        Based on COSMIC-FFP: Time Delivery = 3 months
+        Based on Refined Approximate COSMIC-FFP: Time Delivery = 3,3 months
+
+3. Early Requirements
+    estimated effort range as 70-100 hours
+    Realized effort for this scenario was 87 man-hours
+```
+
